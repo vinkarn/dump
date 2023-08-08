@@ -30,7 +30,30 @@ we make a box with some height and width, and add border to it--> then we set th
     </div>
 
     <p>if we want to create a whole border over some already exiting boxes, just put them in another div and add border to it</p>
-
+    
+    <div><b>7Aug2023</b>
+    <b>Various units in Css</b><br>
+    
+        <pre>CSS provides us with different 
+            px, cm and inches - these are absolute units
+            %, em, rem - are relative units
+            %- means how much the elements size should be, in comparision with the parent element
+            em- this is used to make one element bigger or smaller with-respect to parent element
+            like if text size is 10px;
+            and child element have size 2em, it will be 20px(twice the size of parent element)
+            in case of width, if set width:5em;
+            it will be 5 times the font size of the child element
+            
+            in short, font-size(of the same element) will become the base for each element with size in em
+            rem- is used to make the element size relative to the most outter element(body) present in our webpage
+            for eg- if we have some text directly inside body tag with font-size:16px;
+                and I set size of any element 5rem, then it will be 5 times 16(5 x 16= 80px)
+            
+            OTHER units::
+                vh= viewport height- relative height to that of the browser(or webpage) height
+                vm= viewport width - relative width to that of the browsers(or webpage) width
+        </pre>
+    </div>
 
 </body>
 </html>
